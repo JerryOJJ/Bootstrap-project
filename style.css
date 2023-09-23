@@ -1,0 +1,40 @@
+.carousel-inner{
+    background-color: rgb(250, 217, 223);
+}
+
+.container .row .search{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.container .row .search input{
+    border: none;
+}
+
+.container .row .search input::placeholder{
+    color: black;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+.row .pic{
+    margin-top: 10px;
+}
+
+.row .pic img{
+    width: 100%;
+}
+
+.row .text{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.row .text button{
+    margin-right: 10px;
+    border-radius: 0;
+    width: 35%;
+    font-weight: bold;
+}
