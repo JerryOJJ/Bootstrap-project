@@ -51,3 +51,16 @@ ul li a:hover{
     border-radius: 30px !important;
     height: 400px;
 }
+
+.kit img{
+    border: 1px solid gray;
+    color: rgb(148, 137, 137);
+}
+
+.kit .disabled{
+    border: none;
+    background-color: rgb(122, 121, 121);
+    color: white;
+    padding: 10px 120px;
+    margin-top: 30px;
+}
