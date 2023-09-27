@@ -1,7 +1,3 @@
-.carousel-inner{
-    background-color: rgb(250, 217, 223);
-}
-
 .container .row .search{
     border: 2px solid black;
     border-radius: 20px;
@@ -39,6 +35,10 @@ ul li a:hover{
     font-weight: bold;
 }
 
+.WWO-Carousel{
+    display: none;
+}
+
 .WWO{
     height: 280px;
     box-shadow:
@@ -63,4 +63,28 @@ ul li a:hover{
     color: white;
     padding: 10px 120px;
     margin-top: 30px;
+}
+
+@media screen and (max-device-width: 1024px){
+   body .try-lash .row{
+       display: block;
+    }
+
+    body .try-lash .row .pic{
+        position: relative;
+    }
+
+    body .try-lash .row .text{
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+    }
+
+    body .WWO-Container{
+        display: none;
+    }
+
+    body .WWO-Carousel{
+        display: block;
+    }
 }
