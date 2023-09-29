@@ -15,6 +15,10 @@ ul li a:hover{
     text-decoration: underline;
 }
 
+.navbar{
+    display: none;
+}
+
 .row .pic{
     margin-top: 10px;
 }
@@ -65,6 +69,10 @@ ul li a:hover{
     margin-top: 30px;
 }
 
+.review-carousel{
+    display: none;
+}
+
 @media screen and (max-device-width: 1024px){
    body .try-lash .row{
        display: block;
@@ -76,8 +84,8 @@ ul li a:hover{
 
     body .try-lash .row .text{
         position: absolute;
-        bottom: 40px;
-        left: 0;
+        bottom: 80px;
+        left: -70px;
     }
 
     body .WWO-Container{
@@ -86,5 +94,64 @@ ul li a:hover{
 
     body .WWO-Carousel{
         display: block;
+    }
+}
+
+@media screen and (max-device-width: 768px){
+    body .logo{
+        display: none;
+    }
+
+    body .nav{
+        display: none;
+    }
+
+    body .navbar{
+        display: block;
+        position:static !important;
+        background-color: white !important;
+    }
+
+    body .navbar .ham{
+        border: transparent;
+    }
+
+    body .navbar .rounded-search{
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 90%;
+        padding: 8px;
+    }
+
+    body .navbar .rounded-search .in-search{
+        border: transparent;
+        width: 50%;
+        margin-top: -30px;
+    }
+
+    body .profile h5{
+        display: inline;
+    }
+
+    body .try-lash .row .text{
+        position: absolute;
+        bottom: 26rem;
+    }
+
+    body .rounded{
+        height: 90%;
+        width: 20%;
+    }
+
+    body .review{
+        display: none;
+    }
+
+    body .review-carousel{
+        display: block;
+    }
+
+    body .WWO-review{
+        margin-left: 200px;
     }
 }
