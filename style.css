@@ -11,6 +11,10 @@
     color: black;
 }
 
+a{
+    text-decoration: none;
+}
+
 ul li a:hover{
     text-decoration: underline;
 }
@@ -56,6 +60,10 @@ ul li a:hover{
     height: 400px;
 }
 
+.tES{
+    display: none;
+}
+
 .kit img{
     border: 1px solid gray;
     color: rgb(148, 137, 137);
@@ -67,6 +75,10 @@ ul li a:hover{
     color: white;
     padding: 10px 120px;
     margin-top: 30px;
+}
+
+.kit-2{
+    display: none;
 }
 
 .review-carousel{
@@ -84,7 +96,7 @@ ul li a:hover{
 
     body .try-lash .row .text{
         position: absolute;
-        bottom: 80px;
+        bottom: 110px;
         left: -70px;
     }
 
@@ -153,5 +165,61 @@ ul li a:hover{
 
     body .WWO-review{
         margin-left: 200px;
+    }
+}
+
+@media screen and (max-device-width: 425px){
+    body .try-lash .row .text{
+        bottom: 7rem;
+        left: -6rem
+    }
+
+    body .TES{
+        display: none;
+    }
+
+    body .tES{
+        display: block;
+    }
+
+    body .kit{
+        display: none;
+    }
+
+    body .kit-2{
+        display: block;
+    }
+
+    body .WWO-review{
+        margin-left: 0;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-device-width: 375px){
+    body .try-lash{
+        height: 400px;
+    }
+
+    body .try-lash .row .text{
+        bottom: 6rem;
+    }
+
+    body .kit-2 .kit-2-button button{
+        padding: 10px 130px;
+    }
+}
+
+@media screen and (max-device-width: 320px){
+    body .row .text button{
+        width: auto;
+    }
+
+    body .tES .caption{
+        font-size: small;
+    }
+
+    body .kit-2 .kit-2-button button{
+        padding: 10px 100px;
     }
 }
