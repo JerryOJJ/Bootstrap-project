@@ -85,6 +85,14 @@ ul li a:hover{
     display: none;
 }
 
+.customer-favourite-container h5:hover{
+    text-decoration: underline;
+}
+
+.customer-favourite-smaller-container{
+    display: none;
+}
+
 @media screen and (max-device-width: 1024px){
    body .try-lash .row{
        display: block;
@@ -106,6 +114,10 @@ ul li a:hover{
 
     body .WWO-Carousel{
         display: block;
+    }
+
+    body .customer-favourite-container h5{
+        font-size: medium;
     }
 }
 
@@ -166,6 +178,22 @@ ul li a:hover{
     body .WWO-review{
         margin-left: 200px;
     }
+
+    body .customer-favourite-container{
+        display: none;
+    }
+    
+    body .customer-favourite-smaller-container{
+        display: block;
+    }
+
+    body .customer-favourite-smaller-container strong{
+        font-size: small;
+    }
+
+    body .customer-favourite-smaller-container button{
+        font-size: small;
+    }
 }
 
 @media screen and (max-device-width: 425px){
@@ -194,6 +222,22 @@ ul li a:hover{
         margin-left: 0;
         width: 100% !important;
     }
+
+    body .customer-favourite-smaller-container strong{
+        font-size: small;
+    }
+
+    body .customer-favourite-smaller-container button{
+        font-size: smaller;
+    }
+
+    body .customer-favourite-smaller-container .fantasy{
+        margin-top: 23px;
+    }
+
+    body .customer-favourite-smaller-container .SQUEEZE{
+        margin-top: 23px;
+    }
 }
 
 @media screen and (max-device-width: 375px){
@@ -208,6 +252,22 @@ ul li a:hover{
     body .kit-2 .kit-2-button button{
         padding: 10px 130px;
     }
+
+    body .customer-favourite-smaller-container strong{
+        font-size: small;
+    }
+
+    body .customer-favourite-smaller-container button{
+        font-size: x-small;
+    }
+
+    body .customer-favourite-smaller-container .petite{
+        margin-top: 24px;
+    }
+
+    body .customer-favourite-smaller-container .purify{
+        margin-top: 23px;
+    }
 }
 
 @media screen and (max-device-width: 320px){
@@ -221,5 +281,17 @@ ul li a:hover{
 
     body .kit-2 .kit-2-button button{
         padding: 10px 100px;
+    }
+
+    body .customer-favourite-smaller-container strong{
+        font-size:small;
+    }
+
+    body .customer-favourite-smaller-container button{
+        font-size: xx-small;
+    }
+
+    body .customer-favourite-smaller-container .bonding{
+        margin-top: 24px;
     }
 }
