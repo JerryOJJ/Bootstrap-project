@@ -93,6 +93,10 @@ ul li a:hover{
     display: none;
 }
 
+.smaller-lashes-container{
+    display: none;
+}
+
 @media screen and (max-device-width: 1024px){
    body .try-lash .row{
        display: block;
@@ -194,6 +198,14 @@ ul li a:hover{
     body .customer-favourite-smaller-container button{
         font-size: small;
     }
+
+    body .lashes-container{
+        display: none;
+    }
+
+    body .smaller-lashes-container{
+        display: block;
+    }
 }
 
 @media screen and (max-device-width: 425px){
@@ -238,6 +250,10 @@ ul li a:hover{
     body .customer-favourite-smaller-container .SQUEEZE{
         margin-top: 23px;
     }
+
+    body .smaller-lashes-container button{
+        font-size:small;
+    }
 }
 
 @media screen and (max-device-width: 375px){
@@ -268,6 +284,18 @@ ul li a:hover{
     body .customer-favourite-smaller-container .purify{
         margin-top: 23px;
     }
+
+    body .smaller-lashes-container button{
+        font-size:x-small;
+    }
+
+    body .smaller-lashes-container .fantasy{
+        margin-top: 47px !important;
+    }
+
+    body .smaller-lashes-container .petite{
+        margin-top: 47px !important;
+    }
 }
 
 @media screen and (max-device-width: 320px){
@@ -293,5 +321,21 @@ ul li a:hover{
 
     body .customer-favourite-smaller-container .bonding{
         margin-top: 24px;
+    }
+
+    body .smaller-lashes-container strong{
+        font-size:small;
+    }
+
+    body .smaller-lashes-container button{
+        font-size:xx-small;
+    }
+
+    body .smaller-lashes-container .fantasy{
+        margin-top: 23px !important;
+    }
+
+    body .smaller-lashes-container .petite1{
+        margin-top: 23px !important;
     }
 }
