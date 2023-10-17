@@ -97,6 +97,10 @@ ul li a:hover{
     display: none;
 }
 
+.smaller-accessories-container{
+    display: none;
+}
+
 @media screen and (max-device-width: 1024px){
    body .try-lash .row{
        display: block;
@@ -206,6 +210,14 @@ ul li a:hover{
     body .smaller-lashes-container{
         display: block;
     }
+
+    body .accessories-container{
+        display: none;
+    }
+
+    body .smaller-accessories-container{
+        display: block;
+    }
 }
 
 @media screen and (max-device-width: 425px){
@@ -254,6 +266,10 @@ ul li a:hover{
     body .smaller-lashes-container button{
         font-size:small;
     }
+
+    body .smaller-accessories-container button{
+        font-size: small;
+    }
 }
 
 @media screen and (max-device-width: 375px){
@@ -295,6 +311,18 @@ ul li a:hover{
 
     body .smaller-lashes-container .petite{
         margin-top: 47px !important;
+    }
+
+    body .smaller-accessories-container button{
+        font-size: x-small;
+    }
+
+    body .smaller-accessories-container .SQUEEZE{
+        margin-top: 22px;
+    }
+
+    body .smaller-accessories-container .SQUEEZE2{
+        padding-top: 23px !important;
     }
 }
 
@@ -338,4 +366,25 @@ ul li a:hover{
     body .smaller-lashes-container .petite1{
         margin-top: 23px !important;
     }
+
+    body .smaller-accessories-container button{
+        font-size: xx-small;
+    }
+
+    body .smaller-accessories-container strong{
+        font-size: small;
+    }
+
+    body .smaller-accessories-container .bond{
+       margin-top: 22px;
+    }
+
+    body .smaller-accessories-container .pure{
+       margin-top: 22px;
+    }
+
+    
+    body .smaller-accessories-container .bond2{
+        padding-top: 23px !important; 
+     }
 }
