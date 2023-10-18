@@ -101,6 +101,10 @@ ul li a:hover{
     display: none;
 }
 
+.small-footer-container{
+    display: none;
+}
+
 @media screen and (max-device-width: 1024px){
    body .try-lash .row{
        display: block;
@@ -126,6 +130,10 @@ ul li a:hover{
 
     body .customer-favourite-container h5{
         font-size: medium;
+    }
+
+    body .footer-container h1{
+        font-size: x-large;
     }
 }
 
@@ -216,6 +224,14 @@ ul li a:hover{
     }
 
     body .smaller-accessories-container{
+        display: block;
+    }
+
+    body .footer-container{
+        display: none;
+    }
+
+    body .small-footer-container{
         display: block;
     }
 }
